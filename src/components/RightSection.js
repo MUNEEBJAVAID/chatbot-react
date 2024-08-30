@@ -167,7 +167,7 @@ function RightSection() {
 
                     <div className='grow overflow-hidden '>
 
-                        <textarea contentEditable="true" className='w-[100%] bg-[#2f2f2f]  overflow-y-auto outline-none bg-transparent custom-scrollbar resize-none h-[45px] py-[13px] ' placeholder="Message ChatGPT" value={inputField} onInput={handleUserData} ></textarea>
+                        <textarea contentEditable="true" className='w-[100%] bg-[#2f2f2f]  overflow-y-auto outline-none bg-transparent custom-scrollbar resize-none h-[50px] py-[13px] ' placeholder="Message ChatGPT" value={inputField} onInput={handleUserData} ></textarea>
                         
                         
                     </div>
