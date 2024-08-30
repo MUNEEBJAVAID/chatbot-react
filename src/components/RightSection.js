@@ -158,17 +158,18 @@ function RightSection() {
 
 
             <div className='flex flex-col gap-3 absolute left-1/2 -translate-x-[50%] sm:w-[78%] w-[88%] md:w-[50rem] z-10 bottom-1'>
-                <div className='flex gap-4 border border-[#424242] rounded-full  items-center sm:h-[4rem] h-[3.5rem]'>
+                <div className='flex gap-4 border border-[#424242] rounded-full  items-center h-[4rem]'>
 
 
                     <div className='text-white text-2xl px-3'>
                         <LiaSquarespace />
                     </div>
 
-                    <div className='grow h-[100%] '>
+                    <div className='grow overflow-hidden '>
 
-                        <textarea className='w-[100%] bg-[#2f2f2f] resize-none outline-none bg-transparent sm:pt-4 pt-3 custom-scrollbar' placeholder="Message ChatGPT" value={inputField} onInput={handleUserData} ></textarea>
-
+                        <textarea contentEditable="true" className='w-[100%] bg-[#2f2f2f]  overflow-y-auto outline-none bg-transparent custom-scrollbar resize-none h-[50px] py-[13px] ' placeholder="Message ChatGPT" value={inputField} onInput={handleUserData} ></textarea>
+                        
+                        
                     </div>
 
 
